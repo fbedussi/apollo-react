@@ -15,7 +15,7 @@ const FetchMore = ({
                 type="button"
                 onClick={() => fetchMore({
                     variables: {
-                        cursor: cursor,
+                        cursor,
                     },
                     updateQuery,
                 })}
